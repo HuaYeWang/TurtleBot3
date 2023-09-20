@@ -43,6 +43,11 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=w210
      ```
+2. 確認修改完畢後使用快捷鍵 `ctrl+s` 儲存以及快捷鍵 `ctrl+x` 離開。
+3. 最後，輸入指令重新載入配置。
+4. ```bash
+   source ~/.bashrc
+   ```
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/c6aa621f-86ad-4378-ade3-5167b40082e5)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/364c4ad3-b1d7-42c6-893a-92e16ef5975a)
 

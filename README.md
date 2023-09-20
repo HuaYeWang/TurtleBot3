@@ -79,7 +79,10 @@ IP : 192.168.123.1
    ```
 
 
-seek package : rospack find **package_name**
+find package : 
+```bash
+rospack find **package_name** : return the absolute path to a package
+```
 
 !!!!!   if ROS doesn't work, restart raspberryPi   !!!!!
 

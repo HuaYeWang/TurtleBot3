@@ -94,6 +94,7 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
 ## **如何運作**
 
 * **開機**
+  
   確認PC與SBC都連到相同的網路且bashrc檔案已設定完畢。
 1. 於**PC端**，執行ROS Master。
    ```bash

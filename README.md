@@ -77,7 +77,7 @@ IP : 192.168.123.1
    ```bash
    ssh ubuntu@192.168.123.1
    ```
-
+---
 
 find package : 
 ```bash

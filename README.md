@@ -89,6 +89,8 @@ rospack find **package_name** : return the absolute path to a package
 
 If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
 
+---
+
 ## **如何運作**
 
 * **開機**

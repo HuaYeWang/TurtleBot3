@@ -49,6 +49,21 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
    source ~/.bashrc
    ```
 
+## **Connect using ethernet (Wired)**
+
+**網路線連接**
+
+我們設定SBC網路孔固定IP，請使用網路線與PC進行連接。
+
+IP : 192.168.123.1
+
+1. PC連接後進入網路設定修改IP選項ipv4修改為手動設定IP。
+   ```bash
+   address : 192.168.123.2
+   netmask : 255.255.255.0
+   gateway : 192.168.123.255
+   ```
+
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/222c74ea-a5c9-49f8-9e91-895ea2941d79)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/30aad92f-dc51-4436-bd82-159849a1d312)
 

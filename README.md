@@ -8,7 +8,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
 
 確認PC與SBC連接到相同的wifi環境底下並確認各自的IP位址
 
-## **設定bashrc file**
+## **bashrc file seeting**
 確認PC與SBC連接到相同的wifi環境底下並確認各自的IP位址
 1. 修改「~/.bashrc」檔案。
 

@@ -79,8 +79,7 @@ IP : 192.168.123.1
    ```
 
 
-seek package : 
-rospack find **package_name**
+seek package : rospack find **package_name**
 
 !!!!!   if ROS doesn't work, restart raspberryPi   !!!!!
 

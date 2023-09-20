@@ -78,7 +78,6 @@ IP : 192.168.123.1
    ssh ubuntu@192.168.123.1
    ```
 
-![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/30aad92f-dc51-4436-bd82-159849a1d312)
 
 seek package : 
 rospack find **package_name**

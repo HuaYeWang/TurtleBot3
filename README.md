@@ -33,3 +33,11 @@ After executing navigation, we can point the green "2D Pose Estimate" bottom to 
 The root of navigation parameter file which can be adjusted :
 
 /home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
+
+---
+
+close the connection with wifi :
+sudo ifconfig wlan0 down
+
+open the connection with wifi :
+sudo ifconfig wlan0 up

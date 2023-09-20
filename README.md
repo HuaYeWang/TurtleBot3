@@ -134,8 +134,6 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
    ```
 
 
-![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/3d98677a-c2d6-4623-83ee-698863ceb8e2)
-![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/79cf9371-5654-4070-839f-bdd556ad0182)
 $ rosrun map_server map_saver -f ~/map/**file_name**
 
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**

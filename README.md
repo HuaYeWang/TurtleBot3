@@ -6,6 +6,11 @@ YT廠商教學連結：https://www.youtube.com/watch?v=8jEf5CxrYTA&ab_channel=HU
 
 turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
 
+raspberryPi login : 
+
+id : ubuntu
+pwd : turtlebot
+
 
 ## **bashrc file setting**
 確認PC與SBC連接到相同的wifi環境底下並確認各自的IP位址
@@ -170,10 +175,3 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
 
 algorithm : AMCL
 
----
-
-raspberryPi login : 
-
-id : ubuntu
-
-pwd : turtlebot

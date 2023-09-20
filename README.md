@@ -44,6 +44,10 @@ open the connection with wifi :
 
 sudo ifconfig wlan0 up
 
+nmcli device wifi list //list wifi that we can use
+
+nmcli device wifi connect **AILab** password **ailab120**  //choose the wifi and answer the password
+
 ---
 raspberryPi login : 
 

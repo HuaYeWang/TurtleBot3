@@ -89,6 +89,48 @@ rospack find **package_name** : return the absolute path to a package
 
 If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
 
+## **如何運作**
+
+* **開機**
+  確認PC與SBC都連到相同的網路且bashrc檔案已設定完畢。
+1. 於**PC端**，執行ROS Master。
+   ```bash
+   roscore
+   ```
+
+2. 於**PC端**，使用指令遠端SBC。
+   ```bash
+   ssh ubuntu@sbc_ip_address     # password: turtlebot
+   roslaunch turtlebot3_bringup turtlebot3_robot.launch
+   ```
+
+* **基本遙控**
+
+1. 於**PC端**，執行遙控範例。
+   ```bash
+   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+   ```
+
+* **SLAM (gmapping)**
+
+1. 於**PC端**，執行SLAM建圖。
+   ```bash
+   roslaunch turtlebot3_slam turtlebot3_slam.launch
+   ```
+
+2. 於**PC端**，執行儲存地圖。
+   ```bash
+   rosrun map_server map_saver -f ~/map
+   ```
+
+* **Navigation**
+
+1. 於**PC端**，執行Navigation。
+   ```bash
+   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(map_file_path)
+   ```
+
+
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/3d98677a-c2d6-4623-83ee-698863ceb8e2)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/79cf9371-5654-4070-839f-bdd556ad0182)
 $ rosrun map_server map_saver -f ~/map/**file_name**

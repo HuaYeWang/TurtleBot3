@@ -133,14 +133,14 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
    roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(map_file_path)
    ```
    e.g., $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**
+
+   After executing the navigation, we can use the green '2D Pose Estimate' button to align its arrow direction towards the front of the Turtlebot for an accurate position estimation.
    
 ---
 
 
 
 algorithm : AMCL
-
-After executing navigation, we can point the green "2D Pose Estimate" bottom to fit the location exactly.
 
 The root of navigation parameter file which can be adjusted :
 

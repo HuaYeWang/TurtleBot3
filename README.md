@@ -47,6 +47,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
    ```bash
    source ~/.bashrc
    ```
+---
 
 ## **Connect using ethernet (Wired)**
 
@@ -77,6 +78,7 @@ IP : 192.168.123.1
    ssh ubuntu@192.168.123.1
    ```
 ---
+## **Tips**
 
 find package : 
 ```bash

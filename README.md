@@ -18,4 +18,4 @@ rospack find **package_name**
 
 !!!!!   if ROS doesn't work, restart raspberryPi   !!!!!
 
-bringup >> see YT [36.:00](https://youtu.be/8jEf5CxrYTA?t=2163)
+bringup >> see YT [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)

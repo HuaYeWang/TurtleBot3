@@ -15,7 +15,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
    ```bash
    nano ~/.bashrc
    ```
-   透過使用快捷鍵 alt+/ 幫助您移動到文件最底部，並寫下下列訊息。
+   透過使用快捷鍵 `alt+/` 幫助您移動到文件最底部，並寫下下列訊息。
 
    * PC端加入下列參數
      ```bash

@@ -8,7 +8,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
 
 Raspberry Pi login : 
 ```bash
-Id : ubuntu
+id : ubuntu
 pwd : turtlebot
 ```
 

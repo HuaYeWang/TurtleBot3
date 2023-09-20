@@ -135,6 +135,11 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
    e.g., $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**
 
    After executing the navigation, we can use the green `2D Pose Estimate` button to align its arrow direction towards the front of the Turtlebot for an accurate position estimation.
+
+   This folder allows you to adjust parameters related to navigation.
+   ```bash
+   /home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
+   ```
    
 ---
 
@@ -144,9 +149,6 @@ algorithm : AMCL
 
 The root of navigation parameter file which can be adjusted :
 
-`
-/home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
-`
 
 ---
 

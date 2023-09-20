@@ -43,3 +43,10 @@ sudo ifconfig wlan0 down
 open the connection with wifi :
 
 sudo ifconfig wlan0 up
+
+---
+raspberryPi login : 
+
+id : ubuntu
+
+pwd : turtlebot

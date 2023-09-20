@@ -63,6 +63,20 @@ IP : 192.168.123.1
    netmask : 255.255.255.0
    gateway : 192.168.123.255
    ```
+2. 檢查IP位址。
+   ```bash
+   ifconfig
+   ```
+   
+3. 檢查是否與SBC互通。
+   ```bash
+   ping 192.168.123.1
+   ```
+   
+4. 遠端進入SBC並輸入密碼**turtlebot**。
+   ```bash
+   ssh ubuntu@192.168.123.1
+   ```
 
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/222c74ea-a5c9-49f8-9e91-895ea2941d79)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/30aad92f-dc51-4436-bd82-159849a1d312)

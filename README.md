@@ -81,22 +81,22 @@ IP : 192.168.123.1
 
 ## **設定SBC連接wifi環境**
 
-1. close the connection with wifi
+1. Turn off the Wi-Fi connection
    ```bash
    sudo ifconfig wlan0 down
    ```
 
-2. open the connection with wifi
+2. Turn on the Wi-Fi connection
    ```bash
    sudo ifconfig wlan0 up
    ```
 
-3. list wifi that we can use
+3. List all the available Wi-Fi we can use
    ```bash
    nmcli device wifi list
    ```
 
-4. choose the wifi and answer the password
+4. Select the Wi-Fi and enter the password
    ```bash
    nmcli device wifi connect **AILab** password **ailab120**
    ```

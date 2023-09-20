@@ -78,6 +78,29 @@ IP : 192.168.123.1
    ssh ubuntu@192.168.123.1
    ```
 ---
+
+## **設定SBC連接wifi環境**
+
+1. close the connection with wifi
+   ```bash
+   sudo ifconfig wlan0 down
+   ```
+
+2. open the connection with wifi
+   ```bash
+   sudo ifconfig wlan0 up
+   ```
+
+3. list wifi that we can use
+   ```bash
+   nmcli device wifi list
+   ```
+
+4. choose the wifi and answer the password
+   ```bash
+   nmcli device wifi connect **AILab** password **ailab120**
+   ```
+
 ## **Tips**
 
 find package : 
@@ -143,28 +166,10 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
    
 ---
 
-
-
 algorithm : AMCL
 
-The root of navigation parameter file which can be adjusted :
-
-
 ---
 
-close the connection with wifi :
-
-sudo ifconfig wlan0 down
-
-open the connection with wifi :
-
-sudo ifconfig wlan0 up
-
-nmcli device wifi list //list wifi that we can use
-
-nmcli device wifi connect **AILab** password **ailab120**  //choose the wifi and answer the password
-
----
 raspberryPi login : 
 
 id : ubuntu

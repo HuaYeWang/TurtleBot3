@@ -123,7 +123,7 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
 
 2. 於**PC端**，執行儲存地圖。
    ```bash
-   rosrun map_server map_saver -f ~/map
+   rosrun map_server map_saver -f ~/map/**filename**
    ```
 
 * **Navigation**

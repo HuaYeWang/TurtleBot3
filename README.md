@@ -101,6 +101,8 @@ IP : 192.168.123.1
    nmcli device wifi connect **AILab** password **ailab120**
    ```
 
+---
+
 ## **Tips**
 
 find package : 

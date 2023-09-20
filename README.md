@@ -27,3 +27,5 @@ $ rosrun map_server map_saver -f ~/map/**file_name**
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**
 
 algorithm : AMCL
+
+After executing navigation, we can point the green "2D Pose Estimate" bottom to fit the location exactly.

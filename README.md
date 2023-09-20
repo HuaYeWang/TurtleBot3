@@ -20,9 +20,9 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
    * PC端加入下列參數
      ```bash
      export ROS_MASTER_URI=http://PC_IP:11311
-   export ROS_HOSTNAME=PC_IP
-   export TURTLEBOT3_MODEL=mecanum
-   export MECANUM_TYPE=$(w210 or w350)
+     export ROS_HOSTNAME=PC_IP
+     export TURTLEBOT3_MODEL=mecanum
+     export MECANUM_TYPE=$(w210 or w350)
      ```
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/c6aa621f-86ad-4378-ade3-5167b40082e5)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/364c4ad3-b1d7-42c6-893a-92e16ef5975a)

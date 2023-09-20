@@ -37,7 +37,9 @@ The root of navigation parameter file which can be adjusted :
 ---
 
 close the connection with wifi :
+
 sudo ifconfig wlan0 down
 
 open the connection with wifi :
+
 sudo ifconfig wlan0 up

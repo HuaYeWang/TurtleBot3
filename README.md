@@ -13,7 +13,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/222c74ea-a5c9-49f8-9e91-895ea2941d79)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/30aad92f-dc51-4436-bd82-159849a1d312)
 
-seek package
+seek package : 
 rospack find **package_name**
 
 !!!!!   if ROS doesn't work, restart raspberryPi   !!!!!

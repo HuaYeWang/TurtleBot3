@@ -85,9 +85,9 @@ find package :
 rospack find **package_name** : return the absolute path to a package
 ```
 
-!!!!!   if turtlebot doesn't work, restart Raspberry Pi   !!!!!
+!!!!!   If turtlebot doesn't work, restart Raspberry Pi   !!!!!
 
-if U have some problem about "bringup" >> see YT [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
+If you have some problem about "bringup" >> see YT [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
 
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/3d98677a-c2d6-4623-83ee-698863ceb8e2)
 ![image](https://github.com/HuaYeWang/TurtleBot3/assets/110366807/79cf9371-5654-4070-839f-bdd556ad0182)

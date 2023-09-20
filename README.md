@@ -25,3 +25,5 @@ if U have some problem about "bringup" >> see YT [36:00](https://youtu.be/8jEf5C
 $ rosrun map_server map_saver -f ~/map/**file_name**
 
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**
+
+algorithm : AMCL

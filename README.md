@@ -12,7 +12,7 @@ turtlebot3 official manul : https://emanual.robotis.com/docs/en/platform/turtleb
 確認PC與SBC連接到相同的wifi環境底下並確認各自的IP位址
 1. 修改「~/.bashrc」檔案。
 
-   ```bash
+   ```shell
    nano ~/.bashrc
    ```
    透過使用快捷鍵 alt+/ 幫助您移動到文件最底部，並寫下下列訊息。

@@ -104,19 +104,6 @@ IP : 192.168.123.1
 
 ---
 
-## **Tips**
-
-find package : 
-```bash
-rospack find **package_name** : return the absolute path to a package
-```
-
-!!!!!   If turtlebot doesn't work, restart Raspberry Pi   !!!!!
-
-If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
-
----
-
 ## **如何運作**
 
 * **開機**
@@ -167,6 +154,19 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
    /home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
    ```
    
+---
+
+## **Tips**
+
+find package : 
+```bash
+rospack find **package_name** : return the absolute path to a package
+```
+
+!!!!!   If turtlebot doesn't work, restart Raspberry Pi   !!!!!
+
+If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
+
 ---
 
 algorithm : AMCL

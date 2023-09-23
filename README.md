@@ -18,7 +18,7 @@ pwd : turtlebot
 1. 修改「~/.bashrc」檔案。
 
    ```bash
-   code ~/.bashrc
+   code/nano ~/.bashrc
    ```
    透過使用快捷鍵 `alt+/` 幫助您移動到文件最底部，並寫下下列訊息。
 

@@ -121,6 +121,8 @@ IP : 192.168.123.1
 2. 於**PC端**，使用指令遠端SBC。
    ```bash
    ssh ubuntu@sbc_ip_address     # password: turtlebot
+   ```
+   ```bash
    roslaunch turtlebot3_bringup turtlebot3_robot.launch
    ```
 

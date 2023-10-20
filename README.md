@@ -142,7 +142,7 @@ IP : 192.168.123.1
 
 2. 於**PC端**，執行儲存地圖。
    ```bash
-   rosrun map_server map_saver -f ~/map/filename
+   rosrun map_server map_saver -f ~/ros_map/filename
    ```
 
 * **Navigation**

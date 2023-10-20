@@ -149,7 +149,7 @@ IP : 192.168.123.1
 
 1. 於**PC端**，執行Navigation。
    ```bash
-   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(map_file_path)
+   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/ailab120/ros_map/**filename**
    ```
    e.g., $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$**map_file_path.yaml**
 

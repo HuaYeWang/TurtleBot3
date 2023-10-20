@@ -28,12 +28,14 @@ pwd : turtlebot
      export ROS_HOSTNAME=PC_IP
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=$(w210 or w350)
+     export LDS_MODEL=LDS-02
      ```
      ```bash
      export ROS_MASTER_URI=http://192.168.1.181:11311
      export ROS_HOSTNAME=192.168.1.181
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=w210
+     export LDS_MODEL=LDS-02
      ```
      * SBC端加入下列參數
      ```bash
@@ -41,12 +43,14 @@ pwd : turtlebot
      export ROS_HOSTNAME=SBC_IP
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=$(w210 or w350)
+     export LDS_MODEL=LDS-02
      ```
      ```bash
      export ROS_MASTER_URI=http://192.168.1.181:11311
      export ROS_HOSTNAME=192.168.1.165
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=w210
+     export LDS_MODEL=LDS-02
      ```
 2. 確認修改完畢後使用快捷鍵 `ctrl+s` 儲存以及快捷鍵 `ctrl+x` 離開。
 3. 最後，輸入指令重新載入配置。

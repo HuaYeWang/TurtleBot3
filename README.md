@@ -190,9 +190,9 @@ algorithm : AMCL
 
 
 ## **Reference**
-```bash
-https://gitlab.com/Humpelstilzchen/path_coverage_ros/
-```
+
+[Boustrophedon Decomposition path coverage](https://gitlab.com/Humpelstilzchen/path_coverage_ros/)
+
 
 設定同步時間
 ```bash

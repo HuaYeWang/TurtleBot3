@@ -159,7 +159,7 @@ IP : 192.168.123.1
    ```bash
    /home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
    ```
-   parameter panel
+   **parameter panel**
    ```bash
    rosrun rqt_reconfigure rqt_reconfigure
    ```

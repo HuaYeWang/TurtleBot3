@@ -159,6 +159,11 @@ IP : 192.168.123.1
    ```bash
    /home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_navigation/param
    ```
+   參數版面
+   ```bash
+   rosrun rqt_reconfigure rqt_reconfigure
+   ```
+   
 
 ## Signal heat map
 - You need to pay attention to the robot_width in path_coverage.launch and the size of map2darray in heatmap.py

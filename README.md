@@ -188,5 +188,6 @@ If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be
 
 algorithm : AMCL
 
+設定同步時間
 https://www.arthurtoday.com/2010/03/ubuntu.html
 

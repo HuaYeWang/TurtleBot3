@@ -199,4 +199,8 @@ algorithm : AMCL
 https://www.arthurtoday.com/2010/03/ubuntu.html
 ```
 
+沒有 costmap topic
+https://github.com/DFKI-NI/mir_robot/issues/8
+
+
 

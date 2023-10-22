@@ -163,12 +163,27 @@ IP : 192.168.123.1
    ```bash
    rosrun rqt_reconfigure rqt_reconfigure
    ```
-   
+---
+
+## Complete Coverage Path Planning
+- You need to create the map first
+
+```bash
+roslaunch path_coverage path_coverage.launch
+```
+- Click Publish Point at the top of RViz
+- Click a single corner of n corners of the region
+- Repeat for n times. After that you'll see a polygon with n corners
+- The position of the final point should be close to the first
+- When the closing point is detected the robot starts to cover the area
+
+---
 
 ## Signal heat map
 - You need to pay attention to the robot_width in path_coverage.launch and the size of map2darray in heatmap.py
+- Need to change the speed to 0.2
 ```bash
-rosrun signal heatmap.py
+rosrun signal heatmap.py 
 ```
    
 ---
@@ -184,9 +199,16 @@ rospack find **package_name** : return the absolute path to a package
 
 If you have some problem about "bringup" >> see YouTube [36:00](https://youtu.be/8jEf5CxrYTA?t=2163)
 
----
+#### 跳出dynamic graph 查看Nodes與Topics之間的關係
+```bash
+rosrun rqt_graph rqt_graph
+```
 
 algorithm : AMCL
+
+---
+
+
 
 
 ## **Reference**

@@ -1,0 +1,2 @@
+turtlebot3_idm_custom/turtlebot3:turtlebot3_idm_custom/turtlebot3_bringup:turtlebot3_idm_custom/turtlebot3_description:turtlebot3_idm_custom/turtlebot3_example:turtlebot3_idm_custom/turtlebot3_navigation:turtlebot3_idm_custom/turtlebot3_slam:turtlebot3_idm_custom/turtlebot3_teleop:turtlebot3_msgs_idm_custom
+-DCATKIN_DEVEL_PREFIX=/home/ailab120/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ailab120/catkin_ws/install -G Unix Makefiles

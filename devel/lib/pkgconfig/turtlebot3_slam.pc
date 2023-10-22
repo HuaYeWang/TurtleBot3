@@ -1,0 +1,8 @@
+prefix=/home/ailab120/catkin_ws/devel
+
+Name: turtlebot3_slam
+Description: Description of turtlebot3_slam
+Version: 1.2.6
+Cflags: -I/home/ailab120/catkin_ws/src/turtlebot3_idm_custom/turtlebot3_slam/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

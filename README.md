@@ -191,7 +191,7 @@ algorithm : AMCL
 
 ## **Reference**
 
-[Boustrophedon Decomposition path coverage](https://gitlab.com/Humpelstilzchen/path_coverage_ros/)
+[Boustrophedon Cellular Decomposition (BCD)](https://gitlab.com/Humpelstilzchen/path_coverage_ros/)
 
 
 設定同步時間

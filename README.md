@@ -32,7 +32,7 @@ pwd : turtlebot
      ```
      ```bash
      export ROS_MASTER_URI=http://192.168.1.181:11311
-     export ROS_HOSTNAME=192.168.1.181
+     export ROS_HOSTNAME=192.168.1.181 or 192.168.1.121          lab543: 192.168.1.179
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=w210
      export LDS_MODEL=LDS-02
@@ -47,7 +47,7 @@ pwd : turtlebot
      ```
      ```bash
      export ROS_MASTER_URI=http://192.168.1.181:11311
-     export ROS_HOSTNAME=192.168.1.165
+     export ROS_HOSTNAME=192.168.1.165          lab543: 192.168.1.154
      export TURTLEBOT3_MODEL=mecanum
      export MECANUM_TYPE=w210
      export LDS_MODEL=LDS-02
